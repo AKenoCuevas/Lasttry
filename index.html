@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="icon" href="images/favicon.jpg">
+	<link rel="stylesheet" href="css/fullpage.min.css">
+	<link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<title>KENO CUEVAS PORTFOLIO</title>
+	<script src="css/jquery.min.js"></script>
+  	<script src="css/popper.min.js"></script>
+	<script src="css/bootstrap.min.js"></script>
+	  </head>
+<body background="images/bg.png">
+	<div class="container-fluid" id="navbarfixed">
+		<div class="row">
+		<div class="hometext col pl-5 container-fluid">
+			<h1><a href="index.html">KENO</a></h1>
+		</div>
+		<div class="col p-0 container-fluid">
+			    <nav class="navbar navbar-expand-lg navbar-dark float-right">
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+				  <div class="collapse navbar-collapse navbarcollapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="About.html">About Me</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="Skills.html">Skills</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link inactive" href="Contact.html">Contact Me</a>
+				      </li>
+				    </ul>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</div>
+<div id="fullpage">
+		<div class="row">
+			<div class="section s1 container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 container-fluid pt-5 mt-4">
+						<h1 class="animatetitle myh1">KENO<br>CUEVAS</h1>
+						<p class="wd animatetitle2">Web Designer</p>
+						<p class="animatetitle3 wd"><a class="click click1 text-light" style="text-decoration: none;" href="About.html">About Me</a></p>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<img class=" picanimate mx-auto d-block img-fluid" src="images/vectorhead.png">
+					</div>
+				</div>
+			</div>
+			<div class="section s2 container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 container-fluid">
+						<h1 class="myh1">SKILL<br>SET</h1>
+						<p class="align">
+							<img class="subtitle img-fluid" src="images/bootstrap.gif">
+							<img class="subtitle img-fluid" src="images/html.gif">
+							<img class="subtitle img-fluid" src="images/js.gif">
+							<img class="subtitle img-fluid" src="images/ps.gif">
+							<img class="subtitle img-fluid" src="images/css.gif">
+							<img class="subtitle img-fluid" src="images/codeigniter.gif"><br><br>
+						<a href="Skills.html" class="click click1 text-light wd" style="text-decoration: none;">Show me more</a></p>
+					</div>
+					<div class="col-md-12 col-lg-6 container-fluid">
+						<img class="mx-auto d-block img-fluid shadowbox" src="images/skills.jpg" style="width: 600px;">
+					</div>
+				</div>
+			</div>
+			<div class="section s3 container-fluid">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 container-fluid text-center">
+						<h1 class="myh1">GET in<br>TOUCH</h1>
+						<a href="https://facebook.com/AkenoCuevas" class="soc middle wd"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://Instagram.com/AkenoCuevas"class="soc middle wd"><i class="fab fa-instagram"></i></a>
+						<a href="mailto:keno.a.cuevas@gmail.com" class="soc middle wd"><i class="fab fa-google"></i></a>
+					</div>
+					<div class="col-md-12 col-lg-6 container-fluid">
+						<img class="mx-auto d-block img-fluid shadowbox" src="images/contact.png" style="width: 600px;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<footer><hr>
+			<div class="container py-5 text-center">
+				<div class="row">
+					<div class="col-3"><hr></div>
+					<div class="col-2">
+						<a href="mailto:keno.a.cuevas@gmail.com"><img class="img-fluid contacticon" src="images/email.gif"></a>
+					</div>
+					<div class="col-2">
+						<a href="https://Instagram.com/AkenoCuevas"><img class="img-fluid contacticon" src="images/ig.gif"></a>
+					</div class="col-2">
+					<div class="col-2">
+						<a href="facebook.com/AkenoCuevas"><img class="img-fluid contacticon" src="images/fb.gif"></a>
+					</div>
+					<div class="col-3"><hr></div>
+				</div>
+			</div>
+	</footer>
+		<!-- fullpage -->
+			<script src="css/fullpage.min.js"></script>
+			<script>
+				new fullpage('#fullpage',{
+					menu: '#menu',
+					autoScrolling: true,
+					navigation: true,
+					navigationTooltips:['About Me','Skill Set','Contact Me'],
+					showActiveTooltip: true
+				})
+			</script>
+		<!-- swiper -->
+			<script src="css/swiper.min.js"></script>
+			<script>
+			    var swiper = new Swiper('.swiper-container', {
+			      effect: 'coverflow',
+			      grabCursor: true,
+			      centeredSlides: true,
+			      slidesPerView: 'auto',
+			      coverflowEffect: {
+			        rotate: 50,
+			        stretch: 0,
+			        depth: 100,
+			        modifier: 1,
+			        slideShadows : true,
+			      },
+			      pagination: {
+			        el: '.swiper-pagination',
+			      },
+			    });
+		  	</script>
+
+		 <!-- SweetAlert-->
+		  	<script src="css/sweetalert2.all.min.js"></script>
+		  	<script>
+		  		$('#img1').click(function(){
+		  			Swal("Hello");
+		  		});
+
+		  	</script>
+
+		  	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  			<script>
+    			AOS.init();
+  			</script>
+
+		</body>
+	</head>
+</html>
